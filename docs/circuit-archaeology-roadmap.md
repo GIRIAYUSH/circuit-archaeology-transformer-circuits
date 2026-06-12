@@ -32,14 +32,6 @@ circuit-archaeology/
 │   ├── induction.py                   # Skip-trigram detection, induction scoring
 │   ├── visualization.py               # Attention heatmaps, circuit graphs, logit lens
 │   └── residual_analysis.py           # Subspace decomposition, norm tracking
-├── tests/
-│   ├── test_ablation.py               # Sanity checks: ablation sum, identity paths
-│   ├── test_composition.py            # Matrix shape checks, orthogonality tests
-│   └── test_circuits.py               # Reproduce known small-model results
-├── figures/
-│   ├── nb01/                          # Auto-saved high-res PNGs/SVGs per notebook
-│   ├── nb02/
-│   └── ...
 ├── blog/
 │   ├── 01_excavating_the_residual_stream.md
 │   ├── 02_the_bilinear_heart.md
